@@ -6,6 +6,7 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: sparkles-hello-world_pyload-ng_1
       APP_PORT: 8000
+      PROXY_AUTH_ADD: "false"
     
   pyload-ng:
     image: lscr.io/linuxserver/pyload-ng
