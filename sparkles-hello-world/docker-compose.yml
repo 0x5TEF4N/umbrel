@@ -10,7 +10,6 @@ services:
     
   pyload:
     image: lscr.io/linuxserver/pyload-ng
-    container_name: pyload-ng
     environment:
       - TZ=Etc/UTC
     ports:
