@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: stefan-pyload
-name: pyload
-tagline: Pyload
+name: pyLoad
+tagline: pyLoad for Um brel
 icon: https://raw.githubusercontent.com/0x5TEF4N/umbrel/refs/heads/master/stefan-pyload/pyload.svg
 category: Development
-version: "1.2.0"
+version: "1.2.1"
 port: 3001
 description: >-
   Add your app's description here.
