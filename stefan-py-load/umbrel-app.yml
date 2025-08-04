@@ -1,13 +1,13 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
+id: stefan-py-load
+name: pyload
+tagline: Pyload
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.1.2"
 port: 3001
 description: >-
-  Test
+  pyload-ng
 
 developer: Umbrel
 website: https://umbrel.com
@@ -16,9 +16,6 @@ submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/getumbrel/umbrel-hello-world-app
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
