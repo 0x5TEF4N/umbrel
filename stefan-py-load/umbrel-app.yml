@@ -2,7 +2,7 @@ manifestVersion: 1
 id: stefan-py-load
 name: pyload
 tagline: Pyload
-icon: https://raw.githubusercontent.com/0x5TEF4N/umbrel/refs/heads/master/stefan-py-load/pyload-icon.svg
+icon: https://raw.githubusercontent.com/0x5TEF4N/umbrel/refs/heads/master/stefan-py-load/icon.svg
 category: Development
 version: "1.2.0"
 port: 3001
