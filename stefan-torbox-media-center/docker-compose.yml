@@ -15,5 +15,5 @@ services:
       - MOUNT_PATH=/torbox
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox
-      - ./.env:/app/.env:ro
+      - ${UMBREL_ROOT}/data/storage/documents/secrets/torbox/.env:/app/.env:ro
     restart: unless-stopped
