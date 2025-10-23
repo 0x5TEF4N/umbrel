@@ -1,12 +1,6 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: stefan-torbox-media-center_app_1
-      APP_PORT: 8000
-    
   app:
     image: anonymoussystems/torbox-media-center
     devices:
