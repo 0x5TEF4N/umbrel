@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: stefan-torbox-media-center_app_1
+      APP_PORT: 8000
+    
+  app:
+    image: anonymoussystems/torbox-media-center
+    environment:
+      - TORBOX_API_KEY=2e70ced8-adaf-496c-8077-706ce78ce000
+      - MOUNT_METHOD=fuse
+      - MOUNT_PATH=/torbox
+    volumes:
+      - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox
+    restart: unless-stopped

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: stefan-torbox-media-center
 name: Torbox Media Center
 tagline: torboxmediacenter for Um brel
-icon: https://raw.githubusercontent.com/0x5TEF4N/umbrel/refs/heads/master/stefan-torbox-media-center/torbox.png
+icon: https://raw.githubusercontent.com/0x5TEF4N/umbrel/refs/heads/master/stefan-torbox-media-center/torbox-icon.png
 category: Development
 version: "1.2.1"
 port: 3002
