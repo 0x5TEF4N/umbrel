@@ -10,10 +10,9 @@ services:
     security_opt:
       - apparmor:unconfined
     environment:
-      - TORBOX_API_KEY=${TORBOX_API_KEY}
+      - TORBOX_API_KEY=1234
       - MOUNT_METHOD=fuse
       - MOUNT_PATH=/torbox
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox
-      - ${UMBREL_ROOT}/data/storage/documents/secrets/torbox/.env:/app/.env:ro
     restart: unless-stopped
