@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: anonymoussystems/torbox-media-center
+    image: anonymoussystems/torbox-media-center:latest
     devices:
       - /dev/fuse
     cap_add:
@@ -10,10 +10,9 @@ services:
     security_opt:
       - apparmor:unconfined
     environment:
-      - TORBOX_API_KEY=123
-      - MOUNT_METHOD=fuse
+      - TORBOX_API_KEY=2e70ced8-adaf-496c-8077-706ce78ce065
+      - MOUNT_METHOD=strm
       - MOUNT_PATH=/torbox
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox
-      - ${UMBREL_ROOT}/data/storage/downloads/torbox/.env:/app/.env:ro
     restart: unless-stopped
