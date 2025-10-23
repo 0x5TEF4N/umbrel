@@ -9,6 +9,10 @@ services:
     
   app:
     image: anonymoussystems/torbox-media-center
+    devices:
+      - /dev/fuse
+    cap_add:
+      - SYS_ADMIN
     environment:
       - TORBOX_API_KEY=2e70ced8-adaf-496c-8077-706ce78ce000
       - MOUNT_METHOD=fuse
