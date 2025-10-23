@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: stefan-torbox-media-center
 name: Torbox Media Center
-tagline: torboxmediacenter for Um brel
+tagline: torboxmediacenter for Umbrel
 icon: https://raw.githubusercontent.com/0x5TEF4N/umbrel/refs/heads/master/stefan-torbox-media-center/torbox-icon.png
 category: Development
 version: "1.2.1"
