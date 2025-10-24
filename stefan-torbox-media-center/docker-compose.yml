@@ -11,9 +11,11 @@ services:
       - apparmor:unconfined
     privileged: true
     environment:
-      - TORBOX_API_KEY=42269636-4b51-41b5-9864-222adf30bc5c
+      - TORBOX_API_KEY=<api_key>
       - MOUNT_METHOD=fuse
       - MOUNT_PATH=/torbox
+      - SCAN_METADATA=true
+      - MOUNT_REFRESH_TIME=ultra_fast
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox:rshared
     restart: unless-stopped
