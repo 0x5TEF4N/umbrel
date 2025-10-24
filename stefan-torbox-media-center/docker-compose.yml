@@ -14,7 +14,7 @@ services:
       - TORBOX_API_KEY=<api_key>
       - MOUNT_METHOD=fuse
       - MOUNT_PATH=/torbox
-      - SCAN_METADATA=true
+      - ENABLE_METADATA=true
       - MOUNT_REFRESH_TIME=ultra_fast
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox:rshared
