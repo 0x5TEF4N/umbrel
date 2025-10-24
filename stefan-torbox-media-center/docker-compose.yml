@@ -12,7 +12,7 @@ services:
     privileged: true
     environment:
       - TORBOX_API_KEY=2e70ced8-adaf-496c-8077-706ce78ce065
-      - MOUNT_METHOD=fuse
+      - MOUNT_METHOD=strm
       - MOUNT_PATH=/torbox
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/torbox/cloud:/torbox
